@@ -1,0 +1,25 @@
+.parallax-banner-horario {
+    background-image: url('../img/barber_all.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.texto {
+    padding: 300px;
+}
+
+.texto h2 {
+    color: #fff;
+}
+
+.parallax {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../img/img_parallax01.jpg');
+}
+
+a:hover, a:focus {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}

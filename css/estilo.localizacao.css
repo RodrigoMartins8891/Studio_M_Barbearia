@@ -1,0 +1,19 @@
+.parallax-banner-localizacao {
+    background-image: url('../img/barber_all.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.texto {
+    padding: 300px;
+}
+
+.texto h2 {
+    color: #fff;
+}
+
+iframe {
+    width: 100%;
+    margin: 0;
+}

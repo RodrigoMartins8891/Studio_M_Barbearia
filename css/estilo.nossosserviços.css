@@ -1,0 +1,63 @@
+.parallax-banner-nossosserviços {
+    background-image: url('../img/barber_all.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.texto {
+    padding: 300px;
+}
+
+.texto h2 {
+    color: #fff;
+}
+
+.nossos-servicos {
+    color: #000000;
+    background-color: #fff;
+}
+
+.container-titulo {
+    padding: 30px 20px;
+}
+
+p {
+    color: #999;
+}
+
+.container-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ffffff; 
+    padding: 30px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.servicos {
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px 20px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicos:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.servicos img {
+    width: 33%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.servicos h4 {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
